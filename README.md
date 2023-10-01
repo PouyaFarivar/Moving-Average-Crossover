@@ -1,5 +1,7 @@
 # Moving-Average-Crossover
-Analysis of moving average crossover method for Securities. commodities and BTC price action
+Analysis of moving average crossover method for securities, commodities and BTC price action.
+
+The moving average crossover algorithm comes from the idea of going long/short when two chosen MAs cross. This is mostly in a format of going long when a shorter MA cuts the longer MA and goes higher it. The opposite form is when the shorter MA cuts the longer MA and goes lower than it.
 
 This repository is an attempt to analyze the MA crossover algorithm for daily BTC price action. Performance of all MA pairs ranging from one-day to 500-day moving averages are calculated. This calculation also happens for different risk tolerances, meaning that the model finds the best position size and leverage based on the transaction and futures fees and lets you decide about the final model with your risk tolerance. The model includes both long-short and long-only methods.
 
