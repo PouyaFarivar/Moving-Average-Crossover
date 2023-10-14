@@ -1,5 +1,5 @@
 # Moving-Average-Crossover
-Analysis of moving average crossover method for securities, commodities and BTC price action.
+Analysis of moving average crossover method for securities, commodities price action.
 
 The moving average crossover algorithm comes from the idea of going long/short when two chosen MAs cross. This is mostly in a format of going long when a shorter MA cuts the longer MA and goes higher it. The opposite form is when the shorter MA cuts the longer MA and goes lower than it.
 
